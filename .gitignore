@@ -1,0 +1,30 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Claude Code 本地配置（但保留对外分发的接入 skill）
+.claude/*
+!.claude/skills/
+.claude/skills/*
+!.claude/skills/wechat-login-integration/
+
+# Local env files
+.env
+.env.*
+!.env.example
