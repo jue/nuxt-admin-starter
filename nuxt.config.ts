@@ -10,6 +10,13 @@ export default defineNuxtConfig({
   ],
   ssr: false,
 
+  icon: {
+    provider: 'server',
+    serverBundle: {
+      collections: ['ph']
+    }
+  },
+
   components: [
     {
       path: '~/components',
